@@ -6,8 +6,8 @@
   "networkMode": "awsvpc",
   "cpu": "256",
   "memory": "512",
-  "executionRoleArn": "arn:aws:iam::REPLACE_WITH_YOUR_ACCOUNT_ID:role/REPLACE_WITH_ECS_EXECUTION_ROLE_NAME",
-  "taskRoleArn": "arn:aws:iam::REPLACE_WITH_YOUR_ACCOUNT_ID:role/REPLACE_WITH_ECS_TASK_ROLE_NAME",
+  "executionRoleArn": "arn:aws:iam::867344428625:role/fastapi-app-ecs-task-exec-role",
+  "taskRoleArn": "arn:aws:iam::867344428625:role/fastapi-app-ecs-task-role",
   "containerDefinitions": [
     {
       "name": "app",
